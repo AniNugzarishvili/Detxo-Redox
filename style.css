@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;  
+    margin-top: 50px; 
+}
+
+.mainpage{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kialaname{
+    margin-left: 85px;
+    font-size: 30px;
+    color: green;
+}
+.kialaimg{
+    width: 250px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.kialaimg:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.kiala{
+    padding-top: 80px;
+    transition: 1s;
+    font-style: italic;
+}
+
+.nadoxname{
+    margin-left: 85px;
+    font-size: 30px;
+    color: rgb(137, 36, 158);
+}
+.nadoximg{
+    width: 250px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.nadoximg:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.nadox{
+    padding-top: 80px;
+    transition: 1s;
+    font-style: italic;
+}
+
+.audialiname{
+    margin-left: 70px;
+    font-size: 30px;
+    color: red;
+
+}
+.audialiimg{
+    width: 250px;
+    margin-left: 38px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.audialiimg:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.audiali{
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.parazitdetoqsname{
+    margin-left: 70px;
+    font-size: 30px;
+    color:blueviolet;
+}
+.parazitdetoqsimg{
+    width: 250px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.parazitdetoqsimg:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.parazitdetoqsi{
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.proziumduoname{
+    margin-left: 60px;
+    font-size: 30px;
+    color:blue;
+}
+.proziumduoimg{
+    width: 250px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.proziumduoimg:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.proziumduo{
+    padding-top: 80px;
+    transition: 1s;
+    font-style: italic;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    margin-top: 20px;
+}
+
+.kialapage{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.kialapagename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: oblique;
+}
+.kialapages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onekialap{
+    padding-right: 100px;
+    padding-left: 150px;
+    padding-top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.audialipage{
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+.audialipagename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: oblique;
+}
+.audialipages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.oneaudialp{
+    padding-right: 100px;
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.parazitdetoqspage{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.parazitdetoqsnamee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: oblique;
+    cursor: pointer;
+    padding-left: 80px;
+}
+.parazitdetoqsname{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.parazitdetoqspages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oneparazitdetoqsp{
+    padding-right: 100px;
+    padding-left: 150px;
+    padding-top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.proziumduopages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proziumduopagename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: oblique;
+    cursor: pointer;
+    padding-left: 80px;
+}
+.oneproziumduop{
+    padding-right: 100px;
+    padding-left: 140px;
+    padding-top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.proziumduopage{
+    margin-top: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.nadoqsipages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nadoqsipagename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: oblique;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.onenadoqsp{
+    padding-right: 100px;
+    padding-left: 140px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nadoqsipage{
+    width: 250px;
+    margin-left: 550px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contacts {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: #4CAF50;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
+
+  .instalink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+
+
+
+
+
+
+
